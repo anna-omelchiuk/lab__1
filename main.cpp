@@ -25,14 +25,14 @@ int main()
     cout << string(85, '-') << "\n";
 
     s = high_resolution_clock::now();
-    int r3 = FindUpperBound(arr, target, false);
+    int r3 = LowerBound(arr, target, false);
     e = high_resolution_clock::now();
-    Results("Task 2 (Linear UpperBound)", r3, e - s);
+    Results("Task 2 (Linear LowerBound)", r3, e - s);
 
     s = high_resolution_clock::now();
-    int r4 = FindUpperBound(arr, target, true);
+    int r4 = LowerBound(arr, target, true);
     e = high_resolution_clock::now();
-    Results("Task 2 (Binary UpperBound)", r4, e - s);
+    Results("Task 2 (Binary LowerBound)", r4, e - s);
 
     cout << string(85, '-') << "\n";
 
