@@ -12,6 +12,6 @@ int LinearSearch(const vector<int>& arr, int target);
 int BinarySearch(const vector<int>& arr, int target);
 
 int CheckPresence(const vector<int>& arr, int target, bool useBinary);
-int FindUpperBound(const vector<int>& arr, int target, bool useBinary);
+int LowerBound(const vector<int>& arr, int target, bool useBinary);
 
 void Results(string name, int result, nanoseconds duration);
