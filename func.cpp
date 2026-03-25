@@ -31,7 +31,7 @@ int CheckPresence(const vector<int>& arr, int target, bool useBinary)
     return LinearSearch(arr, target);
 }
 
-int FindUpperBound(const vector<int>& arr, int target, bool useBinary)
+int LowerBound(const vector<int>& arr, int target, bool useBinary)
 {
     if (useBinary)
     {
